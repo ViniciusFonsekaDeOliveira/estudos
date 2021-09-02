@@ -1,0 +1,11 @@
+Vamos começar escrevendo algo qualquer.
+Aqui estou na minha máquina local.
+Subi, a princípio, um arquivo vazio para o meu repositório online.
+E agora estou acrescentando conteúdo aleatorio nele.
+Poderia ser qualquer coisa. Inclusive, código.
+Vamos lá.
+Vamos subir essas mudanças?
+Alterei o arquivo localmente. Ele ficou azul.
+E... agora vou fazer o upload online.
+Se você estiver lendo isso, ótimo! Deu certo!
+
