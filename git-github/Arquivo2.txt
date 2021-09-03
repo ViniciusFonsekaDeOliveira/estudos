@@ -1,2 +1,19 @@
 A flag -am nao funciona para nenhum arquivo novo recém criado.
 Ela funciona apenas para arquivos modificados.
+
+Na branch da Funcionalidade1, eu alterei este arquivo.
+Quando eu fiz o MERGE dela para a branch MASTER,
+a alteração que eu havia feito lá na branch Funcionalidade1 do Arquivo2
+repercurtiu no Arquivo2 do branch master.
+
+Na branch da Funcionalidade2, o arquivo2 que há nela, não foi atualizado.
+porque essa atualização ocorreu na branch Funcionalidade1.
+
+Eu fiz o rebase da Funcionalidade2 e aparentementeo arquivo2 que há nela e que não foi atualizado;
+não se propagou para o branch master, em sua forma antiga e desatualizada. Ou seja, manteve-se a alteração
+efetuada pela Funcionalidade 1, a qual eu fiz um MERGE e não um rebase.
+
+Pergunta: Se eu fizesse um MERGE da Funcionalidade2, o arquivo2 que há nela e que não foi atualizado,
+será propagado para master substituindo o que o MERGE da Funcionalidade1 fez?
+
+
