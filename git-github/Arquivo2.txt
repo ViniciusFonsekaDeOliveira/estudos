@@ -15,5 +15,3 @@ efetuada pela Funcionalidade 1, a qual eu fiz um MERGE e não um rebase.
 
 Pergunta: Se eu fizesse um MERGE da Funcionalidade2, o arquivo2 que há nela e que não foi atualizado,
 será propagado para master substituindo o que o MERGE da Funcionalidade1 fez?
-
-
