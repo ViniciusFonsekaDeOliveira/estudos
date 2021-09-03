@@ -1,1 +1,3 @@
 Antes de criar este arquivo foi criado o branch Funcionalidade2.
+O que aconteceu com Funcionalidade2 após o rebase comparado com o que aconteceu com a Funcionalidade1
+que utilizei o merge?
