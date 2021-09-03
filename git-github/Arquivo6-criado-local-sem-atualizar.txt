@@ -1,0 +1,3 @@
+Quando se faz isso, o seu push é rejeitado.
+O sistema não permite que você pushe suas ataulizações para o ambiente remoto
+sem antes atualizar.
