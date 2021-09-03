@@ -1,0 +1,2 @@
+Esse arquivo foi adcionado como uma branch de funcionalidade1
+para ser incorporada posteriormente à branch master.
