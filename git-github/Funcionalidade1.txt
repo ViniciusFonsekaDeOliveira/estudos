@@ -1,2 +1,6 @@
 Esse arquivo foi adcionado como uma branch de funcionalidade1
 para ser incorporada posteriormente à branch master.
+Trabalhei mais um pouco e ela acabo de ficar pronta neste momento;
+em que o master já até tem outros arquivos adicionadas.
+O que acontecerá se Funcionalidade1 se mergir com o master através do comando merge?
+Onde ela vai ficar?
