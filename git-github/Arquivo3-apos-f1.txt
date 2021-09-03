@@ -1,0 +1,3 @@
+Arquivo criado após a criação da branch Funcionalidade 1
+No momento do merge em que posição no tempo este arquivo estará
+após o merge? E se fosse um rebase?
