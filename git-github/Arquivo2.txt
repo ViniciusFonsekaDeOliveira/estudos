@@ -1,0 +1,2 @@
+A flag -am nao funciona para nenhum arquivo novo recém criado.
+Ela funciona apenas para arquivos modificados.
