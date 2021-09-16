@@ -45,7 +45,16 @@ def subtracao(n1, n2):
 
 
 def matematica(n1, n2, op=soma):
+    """
+     Uma função simples que faz operações matemáticas simples. Testando doc strings
+
+    :param n1:
+    :param n2:
+    :param op:
+    :return:
+    """
     return op(n1, n2)
 
+print(matematica(1, 4, op=subtracao))
 
-print(matematica(1, 4, op=soma))
+print(matematica.__doc__)
