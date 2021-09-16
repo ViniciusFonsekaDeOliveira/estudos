@@ -16,7 +16,9 @@ dicionario = {'a': 1,
               'c': 3,
               'd': 4}
 
-novo = {chave: valor ** 2 for chave, valor in dicionario.items()}
+
+# se for par, eleve ao quadrado. Caso contrário, diminua uma unidade.
+novo = {chave: (valor ** 2 if not valor % 2 else valor - 1) for chave, valor in dicionario.items()}
 
 print(dicionario)
 print(novo)
