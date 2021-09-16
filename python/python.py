@@ -34,3 +34,18 @@ user = namedtuple("usuario", 'nome idade sexo nacionalidade')
 cadastro = user("Vinicius", 30, "masc", "br")
 
 print(cadastro)
+
+
+def soma(n1, n2):
+    return n1 + n2
+
+
+def subtracao(n1, n2):
+    return n1 - n2
+
+
+def matematica(n1, n2, op=soma):
+    return op(n1, n2)
+
+
+print(matematica(1, 4, op=soma))
