@@ -22,3 +22,8 @@ novo = {chave: (valor ** 2 if not valor % 2 else valor - 1) for chave, valor in 
 
 print(dicionario)
 print(novo)
+
+# verifica se todos os indivíduos possuem a letra C
+individuos = ["Camile", "carlos", "carlota", "Ciro", "Cintia", "august"]
+
+print(all([nome[0].title() == 'C' for nome in individuos]))
