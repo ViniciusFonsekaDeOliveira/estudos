@@ -27,3 +27,27 @@ print(novo)
 individuos = ["Camile", "carlos", "carlota", "Ciro", "Cintia", "august"]
 
 print(all([nome[0].title() == 'C' for nome in individuos]))
+
+# um interável vazio é interpretado pelo python como sendo False. Mas o all() o interpreta como True.
+# entretanto se houver um 0, o all irá entendê-lo como False.
+
+
+"""
+O any é como se fosse a operação or. 
+"Existe qualquer elemento que seja verdadeiro aqui?"
+
+O all é como se fosse a operação and.
+"Todos os elementos, incluindo o vazio, são verdadeiros?"
+"""
+
+generator = (x for x in range(1, 9))
+print(all(x for x in range(8)))  # ocupa menos espaço na memória.
+""" 
+não é uma tupla, é uma expressão geradora. Complexidade de espaço é mais performática do que as outras coleções
+
+"""
+
+pacote = [(1, 2), (3, 4), (5, 6)]
+
+print(*pacote)
+print(list(zip(*pacote)))
