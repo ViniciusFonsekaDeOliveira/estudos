@@ -19,3 +19,14 @@ alunos_mais_antigos = sorted(alunos, key=lambda item: item['matricula'])
 
 print(f'Melhores alunos: {ranking_alunos}')
 print(f'Alunos mais antigos: {alunos_mais_antigos}')
+
+
+alunos_agrupados = groupby(ranking_alunos, key=lambda item: item['nota'])
+
+print(alunos_agrupados)
+
+for agrupamento, estudantes in alunos_agrupados:
+    print(agrupamento)
+    # print(estudantes)
+    for est in estudantes:
+        print(est)
